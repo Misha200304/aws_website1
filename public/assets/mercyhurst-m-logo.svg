@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="100%" height="100%" fill="none">
+  <!-- AWS Student Builder Group Official Program Icon - The Builder Chip (Green Edition) -->
+  <g fill="#00b85c">
+    <!-- Top 3 Pins -->
+    <rect x="100" y="0" width="100" height="100" />
+    <rect x="300" y="0" width="100" height="100" />
+    <rect x="500" y="0" width="100" height="100" />
+
+    <!-- Bottom 3 Pins -->
+    <rect x="100" y="600" width="100" height="100" />
+    <rect x="300" y="600" width="100" height="100" />
+    <rect x="500" y="600" width="100" height="100" />
+
+    <!-- Left 3 Pins -->
+    <rect x="0" y="100" width="100" height="100" />
+    <rect x="0" y="300" width="100" height="100" />
+    <rect x="0" y="500" width="100" height="100" />
+
+    <!-- Right 3 Pins -->
+    <rect x="600" y="100" width="100" height="100" />
+    <rect x="600" y="300" width="100" height="100" />
+    <rect x="600" y="500" width="100" height="100" />
+
+    <!-- Frame Top Bar -->
+    <rect x="100" y="100" width="500" height="100" />
+    <!-- Frame Bottom Bar -->
+    <rect x="100" y="500" width="500" height="100" />
+    <!-- Frame Left Bar -->
+    <rect x="100" y="200" width="100" height="300" />
+    <!-- Frame Right Bar -->
+    <rect x="500" y="200" width="100" height="300" />
+  </g>
+</svg>

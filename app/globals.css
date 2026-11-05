@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Figtree:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+
+@theme {
+  --font-heading: "Bricolage Grotesque", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: "Figtree", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-brand-green: #00e599;
+  --color-brand-green-hover: #00c77b;
+  --color-brand-green-dark: #00b85c;
+  --color-brand-dark-bg: #090d14;
+  --color-brand-dark-surface: #0f1522;
+  --color-brand-dark-card: #131b2a;
+  --color-brand-dark-border: #1e293b;
+}
+
+@keyframes blinkCursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes scanlineMove {
+  0% { transform: translateY(-100%); opacity: 0.1; }
+  50% { opacity: 0.25; }
+  100% { transform: translateY(300%); opacity: 0.05; }
+}
+
+.animate-blink-cursor {
+  animation: blinkCursor 1s step-end infinite;
+}
+
+.animate-scanline {
+  animation: scanlineMove 4s linear infinite;
+}
+
+.sheen-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.sheen-btn::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 40%;
+  height: 200%;
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.22), transparent);
+  transform: rotate(25deg);
+  transition: all 0.6s ease;
+  pointer-events: none;
+}
+
+.sheen-btn:hover::after {
+  left: 130%;
+}
+

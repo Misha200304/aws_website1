@@ -1,0 +1,6 @@
+{
+  "name": "AWS Student Builder Group - Mercyhurst University",
+  "description": "Student-led campus cloud community portal for the AWS Student Builder Group at Mercyhurst University featuring upcoming events, workshops, learning perks, and leadership.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

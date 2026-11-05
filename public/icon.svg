@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="32" height="32" fill="none">
+  <!-- AWS Student Builder Group Official Program Icon - The Builder Chip Favicon -->
+  <g fill="#00b85c">
+    <rect x="100" y="0" width="100" height="100" />
+    <rect x="300" y="0" width="100" height="100" />
+    <rect x="500" y="0" width="100" height="100" />
+
+    <rect x="100" y="600" width="100" height="100" />
+    <rect x="300" y="600" width="100" height="100" />
+    <rect x="500" y="600" width="100" height="100" />
+
+    <rect x="0" y="100" width="100" height="100" />
+    <rect x="0" y="300" width="100" height="100" />
+    <rect x="0" y="500" width="100" height="100" />
+
+    <rect x="600" y="100" width="100" height="100" />
+    <rect x="600" y="300" width="100" height="100" />
+    <rect x="600" y="500" width="100" height="100" />
+
+    <rect x="100" y="100" width="500" height="100" />
+    <rect x="100" y="500" width="500" height="100" />
+    <rect x="100" y="200" width="100" height="300" />
+    <rect x="500" y="200" width="100" height="300" />
+  </g>
+</svg>
